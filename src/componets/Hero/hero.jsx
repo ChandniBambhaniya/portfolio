@@ -7,11 +7,16 @@ export function Hero() {
     <section className={styles.container}>
       <div className={styles.content}>
         <div className={styles.infoContainer}>
-          <h1 className={styles.title}>Hi, I am Chandni </h1>
-          <h2 className={styles.subTitle}> I build websites and mobile apps.</h2>
+          <h2 className={styles.title}>Hi, I am Chandni </h2>
+          <h3 className={styles.subTitle}>
+            {" "}
+            I build websites and mobile apps.
+          </h3>
           <p className={styles.discription}>
-            I'm a Full stack developer specializing in building responsive
-            websites and mobile apps
+            I bring a blend of technical expertise and creative problem-solving
+            to turn innovative ideas into high-impact digital solutions. I am
+            passionate about creating seamless user experiences and am always
+            eager to learn and adapt to new technologies.
           </p>
           <a
             href="mailto:chandnisorathiya1358@gmail.com"
@@ -23,14 +28,10 @@ export function Hero() {
         </div>
 
         <div className={styles.imageContainer}>
-          <img
-            src={heroIcon}
-            alt="hero-image"
-            className={styles.heroImg}
-          />
+          <img src={heroIcon} alt="hero-image" className={styles.heroImg} />
         </div>
 
-        {/* <div className={styles.topBlur} /> */}
+        <div className={styles.topBlur} />
         <div className={styles.bottumBlur} />
       </div>
     </section>
