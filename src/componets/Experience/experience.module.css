@@ -1,0 +1,132 @@
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.titleText {
+  font-size: 35px;
+  font-weight: 700;
+  color: var(--color-text);
+  font-family: var(--font-roboto);
+  margin-bottom: 30px;
+}
+
+.contentFrame {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: space-between;
+  gap: 0s 200px;
+}
+
+.languageIconsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 50px 20px;
+  justify-items: flex-start;
+  align-items: center;
+  padding: 20px;
+  width: 50%;
+}
+
+.languageIconsGrid img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.languageIconsGrid img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 25px rgba(0, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.05);
+  cursor: pointer;
+}
+
+.languageIconsGrid p {
+  font-size: 18px;
+  text-align: center;
+  color: var(--color-text);
+}
+
+.companyDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.companyDetailsBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 50px;
+
+  background: linear-gradient(135deg, rgba(25, 55, 109, 0.8), rgba(25, 55, 109, 0));
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 16px;
+  color: white;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+
+}
+
+.companyDetailsBox img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.companyDetailsBox h2 {
+  font-size: 30px;
+  color: var(--color-text);
+  margin-bottom: 5px;
+}
+.companyDetailsBox h4 {
+  font-size: 20px;
+  color: var(--color-text);
+  margin-bottom: 15px;
+}
+
+.companyDetailsBox li {
+  font-size: 18px;
+  color: aliceblue;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .contentFrame {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .languageIconsGrid {
+    width: 100%;
+    gap: 20px;
+  }
+
+  .companyDetailsBox {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+}

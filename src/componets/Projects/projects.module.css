@@ -1,0 +1,37 @@
+@import "../../vars.css";
+
+.projectListGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    gap: 5rem; 
+    padding: 2rem; 
+}
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, rgba(25, 55, 109, 0.8), rgba(25, 55, 109, 0));
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.cardContainer img{
+    width: 100%;
+    height: auto;
+    max-height: 200px; 
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.cardContainer h2 {
+  font-size: 30px;
+  color: var(--color-text);
+  margin-bottom: 5px;
+}
