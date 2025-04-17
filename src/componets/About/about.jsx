@@ -3,7 +3,7 @@ import styles from "./about.module.css";
 import heroImg from "../../../assets/hero/heroImg2.png";
 export const About = () => {
   return (
-    <section id="about" className={[styles.container, styles.scrollSection]}>
+    <section id="about" className={styles.container}>
       <div className={styles.content}>
         <h1 className={styles.title}>About</h1>
 
