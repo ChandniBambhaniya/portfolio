@@ -21,7 +21,7 @@ export const Projects = () => {
   );
 
   return (
-    <section id="projects" className={[styles1.container, styles1.scrollSection]}>
+    <section id="projects" className={styles1.container}>
       <div className={styles1.title}>
         <h2 className={styles1.titleText}>Projects</h2>
       </div>

@@ -1,10 +1,8 @@
 @import "../../vars.css";
 
-.scrollSection {
-  scroll-margin-top: 100px;
-}
 
 .container {
+  scroll-margin-top: 100px;
   display: flex;
   flex-direction: column;
   margin-top: 10%;

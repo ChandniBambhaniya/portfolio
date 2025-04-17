@@ -15,7 +15,7 @@ import exglomaLogo from "../../../assets/skills/companies/exgloma_logo.jpg";
 
 export const Experience = () => {
   return (
-    <section id="experience" className={[styles.container, styles.scrollSection]}>
+    <section id="experience" className={styles.container}>
       <div className={styles.title}>
         <h2 className={styles.titleText}>Experience</h2>
       </div>
