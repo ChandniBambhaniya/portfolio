@@ -11,16 +11,16 @@ export const Navbar = () => {
       <div className={styles.menu}>
         <img className={styles.menuBtn} src={isMenuOpen? menuCloseIcon : menuIcon } alt="menu-button"  onClick={() => setMenuOpen(!isMenuOpen)} />
         <ul className={`${styles.menuItems} ${isMenuOpen && styles.menuOpen}`} onClick={() => setMenuOpen(false)}>
-          <li onChange={() => setMenuOpen(false)}>
+          <li onClick={() => setMenuOpen(false)}>
             <a href="#about">About</a>
           </li>
-          <li onChange={() => setMenuOpen(false)}> 
+          <li onClick={() => setMenuOpen(false)}> 
             <a href="#experience">Experience</a>
           </li>
-          <li onChange={() => setMenuOpen(false)}>
+          <li onClick={() => setMenuOpen(false)}>
             <a href="#projects">Projects</a>
           </li>
-          <li  onChange={() => setMenuOpen(false)}>
+          <li  onClick={() => setMenuOpen(false)}>
             <a href="#contact1">Contact</a>
           </li>
         </ul>
