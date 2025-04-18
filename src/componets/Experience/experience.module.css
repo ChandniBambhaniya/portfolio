@@ -1,6 +1,5 @@
 @import "../../vars.css";
 
-
 .container {
   display: flex;
   flex-direction: column;
@@ -61,12 +60,12 @@
   color: var(--color-text);
 }
 
-.companyDetails{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
+.companyDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
 }
 
 .companyDetailsBox {
@@ -76,13 +75,16 @@
   align-items: flex-start;
   gap: 50px;
 
-  background: linear-gradient(135deg, rgba(25, 55, 109, 0.8), rgba(25, 55, 109, 0));
+  background: linear-gradient(
+    135deg,
+    rgba(25, 55, 109, 0.8),
+    rgba(25, 55, 109, 0)
+  );
   border-radius: 16px;
   padding: 24px;
   margin-bottom: 16px;
   color: white;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
-
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 
 .companyDetailsBox img {
@@ -112,8 +114,6 @@
   .container {
     margin-left: 5%;
     margin-right: 5%;
-    justify-content: center;
-    align-items: center;
   }
 
   .contentFrame {
@@ -127,7 +127,12 @@
     gap: 40px;
     align-items: center;
     justify-content: space-around;
+  }
 
+  .title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
   }
 
   .companyDetailsBox {
@@ -135,5 +140,4 @@
     align-items: center;
     justify-content: center;
   }
-  
 }
