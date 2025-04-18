@@ -7,6 +7,7 @@
   z-index: 1;
   background: #19376d;
   padding: 20px 100px;
+  scroll-margin-top: 100px;
 }
 
 .leftPart {

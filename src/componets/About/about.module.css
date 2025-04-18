@@ -12,6 +12,7 @@
     border-width: 1px;
     border-radius: 15px;
     background-color: #070a13;
+    scroll-margin-top: 100px;
 }
 
 .content{
