@@ -7,7 +7,7 @@ import gitImg from "../../../assets/media/git.png";
 
 export const Contact = () => {
   return (
-    <section id="contact" className={styles.container}>
+    <section id="contact1" className={styles.container}>
       <div className={styles.leftPart}>
         <h1>Your Move</h1>
         <h4>Got a vision? I'm all ears. Let's bring it to life.</h4>
