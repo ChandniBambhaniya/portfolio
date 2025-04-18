@@ -9,19 +9,19 @@ import folkLog from "../../../assets/projects/folkLog2.png";
 
 export const Projects = () => {
   const WithStyles = ({ image, headline, description }) => (
-    <div style={{ padding: "10px" }}>
+    <div className={styles.cardContent}>
       <img
         src={image}
         alt={headline}
         style={{ width: "100%", borderRadius: "8px" }}
       />
-      <h3 style={{ marginBottom: "5px", fontSize: "30px" }}>{headline}</h3>
-      <p style={{ fontSize: "18px" }}>{description}</p>
+      <h3>{headline}</h3>
+      <p>{description}</p>
     </div>
   );
 
   return (
-    <section id="projects" className={styles1.container}>
+    <section id="projects" className={styles.container}>
       <div className={styles1.title}>
         <h2 className={styles1.titleText}>Projects</h2>
       </div>
