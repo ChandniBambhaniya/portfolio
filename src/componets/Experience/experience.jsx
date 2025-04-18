@@ -82,7 +82,7 @@ export const Experience = () => {
                     <img src={exglomaLogo} alt="company-logo" className={styles.companyLogo}/>
                 </div>
                 <div>
-                    <h2>Code Symphony</h2>
+                    <h2>Exgloma</h2>
                     <h4>Jan 2024 - Present</h4>
                     <ui>
                         <li>Worked on multiple projects using React, Node.js, and MongoDB.</li>
