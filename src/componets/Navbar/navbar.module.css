@@ -31,8 +31,9 @@
 .menuBtn {
   display: none;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
-.menuItems li {
+.menuItems {
   margin: 0;
   padding: 0;
 }
@@ -42,6 +43,7 @@
   text-decoration: none;
   display: block;
   padding: 10px;
+  -webkit-tap-highlight-color: rgba(0,0,0,0.1);
 }
 
 @media screen and (max-width: 1000px) and (min-width: 769px) {
@@ -71,7 +73,6 @@
   }
   .menuBtn {
     display: block;
-    cursor: pointer;
     width: 40px;
     height: 40px;
   }
@@ -93,9 +94,17 @@
     width: 150px; 
   }
 
+  .menuItem {
+    width: 100%;
+    text-align: center;
+  }
+
   .menuItems a {
     padding: 10px 0;
     width: 100%;
+    cursor: pointer;
+    font-weight: 500;
+    touch-action: manipulation;
   }
 
   .menuOpen {
