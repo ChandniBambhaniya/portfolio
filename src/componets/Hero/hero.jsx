@@ -20,10 +20,10 @@ export function Hero() {
           </p>
           <a
             href="mailto:chandnisorathiya1358@gmail.com"
-            className={styles.contactBtn}
+            className={styles.connectBtn}
           >
             {" "}
-            Contact Me{" "}
+            Reach out{" "}
           </a>
         </div>
 

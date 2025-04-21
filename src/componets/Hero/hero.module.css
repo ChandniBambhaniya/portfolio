@@ -94,7 +94,7 @@
   font-family: var(--font-roboto);
 }
 
-.contactBtn {
+.connectBtn {
   text-decoration: none;
   background-color: var(--color-primary);
   color: var(--color-text);
