@@ -26,9 +26,25 @@
   font-size: 16px;
 }
 
+.cardContent img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
 @media screen and (max-width: 480px) {
   .cardContent h3 {
     font-size: 20px;
+  }
+
+  .cardContent {
+    padding: 8px;
+  }
+
+  .cardContent img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
   }
 
   .cardContent p {

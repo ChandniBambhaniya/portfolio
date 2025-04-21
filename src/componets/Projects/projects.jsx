@@ -13,7 +13,6 @@ export const Projects = () => {
       <img
         src={image}
         alt={headline}
-        style={{ width: "100%", borderRadius: "8px" }}
       />
       <h3>{headline}</h3>
       <p>{description}</p>
@@ -21,7 +20,7 @@ export const Projects = () => {
   );
 
   return (
-    <section id="projects" className={styles.container}>
+    <section className={styles.container}>
       <div className={styles1.title}>
         <h2 className={styles1.titleText}>Projects</h2>
       </div>

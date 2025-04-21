@@ -32,7 +32,7 @@ export function Hero() {
         </div>
 
         <div className={styles.topBlur} />
-        <div className={styles.bottumBlur} />
+        <div className={styles.bottomBlur} />
       </div>
     </section>
   );

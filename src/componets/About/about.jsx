@@ -3,7 +3,7 @@ import styles from "./about.module.css";
 import heroImg from "../../../assets/hero/heroImg2.png";
 export const About = () => {
   return (
-    <section id="about" className={styles.container}>
+    <section className={styles.container}>
       <div className={styles.content}>
         <h1 className={styles.title}>About</h1>
 
@@ -17,12 +17,7 @@ export const About = () => {
               <h3 className={styles.subTitle}>
                 Hello, I'm Chandni Sorathiya, I'm a Full Stack Developer with
                 over 4 years of experience crafting responsive websites and
-                mobile applications using React, React Native, and Node.js. 
-                {/* My journey began in
-                college, where I built small projects that soon transformed into
-                live applications. Today, I am dedicated to crafting innovative
-                digital solutions that blend creativity and cutting-edge
-                technology for web and mobile. */}
+                mobile applications using React, React Native, and Node.js.
               </h3>
             </div>
 
